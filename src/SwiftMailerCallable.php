@@ -67,6 +67,8 @@ class SwiftMailerCallable implements LoggerAwareInterface
         if ($to) {
             $to = is_array($to) ? $to : [ $to ];
             $message->setTo( $to );
+        } else {
+            $to = array();
         }
 
 
