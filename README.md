@@ -20,8 +20,12 @@ use Germania\SwiftMailerCallable\SwiftMailerCallable;
 $swift_mailer    = Swift_Mailer::newInstance( ... );
 $message_factory = function() { return Swift_Message::newInstance( ... ); });
 
-// Setup callable
+// Setup callable, optionally with PSR-3 Logger
 $mailer = new SwiftMailerCallable( $swift_mailer, $message_factory );
+$mailer = new SwiftMailerCallable( $swift_mailer, $message_factory, $logger );
+
+// PSR-3 LoggerAwareInterface
+$mailer->setLogger( $logger );
 
 // Prepare sending
 $subject = 'My mail subject';
