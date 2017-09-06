@@ -1,16 +1,16 @@
-#Germania\SwiftMailerCallable
+# Germania KG • SwiftMailerCallable
 
-Callable wrapper around sending emails with [SwiftMailer](http://swiftmailer.org/)
+**Callable wrapper around sending emails with [SwiftMailer](http://swiftmailer.org/)**
 
 
-##Installation
+## Installation
 
 ```bash
 $ composer require germania-kg/swiftmailer-callable
 ```
 
 
-##Usage
+## Usage
 
 ```php
 <?php
@@ -39,7 +39,7 @@ $sent = $mailer( $subject, $body, ['me@test.com' => 'Joen Doe'] );
 
 
 
-##Development and Testing
+## Development and Testing
 
 Develop using `develop` branch, using [Git Flow](https://github.com/nvie/gitflow).   
 **Currently, no tests are specified.**
