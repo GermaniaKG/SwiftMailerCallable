@@ -9,7 +9,7 @@ class SwiftMailerCallable implements LoggerAwareInterface
 {
 
     /**
-     * @var Swift_Mailer
+     * @var \Swift_Mailer
      */
     public $mailer;
 
