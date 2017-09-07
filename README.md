@@ -1,4 +1,4 @@
-# Germania KG • SwiftMailerCallable
+# Germania KG · SwiftMailerCallable
 
 **Callable wrapper around sending emails with [SwiftMailer](http://swiftmailer.org/)**
 
