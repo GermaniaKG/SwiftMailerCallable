@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/GermaniaKG/SwiftMailerCallable.svg?branch=master)](https://travis-ci.org/GermaniaKG/SwiftMailerCallable)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/build-status/master)
+
 
 ## Installation
 
