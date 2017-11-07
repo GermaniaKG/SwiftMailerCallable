@@ -10,9 +10,13 @@
 
 ## Installation
 
+**This wrapper works with SwiftMailer version 5.** SwiftMailer's newer 6.0 release creates objects another way, so this wrapper will be incompatible with the newest SwiftMailer versions. The upcoming **SwiftMailerCallable 2.0** will address this.
+
 ```bash
-$ composer require germania-kg/swiftmailer-callable
+$ composer require germania-kg/swiftmailer-callable:^1.0
 ```
+
+## A Word on SwiftMailer
 
 
 ## Usage
