@@ -23,7 +23,7 @@
   },
 
 	"require": {
-		"swiftmailer/swiftmailer": "^5.4",
+		"swiftmailer/swiftmailer": "^5.4|^6.0",
 		"psr/log": "^1.0"
 	},
 
