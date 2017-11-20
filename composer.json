@@ -23,7 +23,8 @@
   },
 
 	"require": {
-		"swiftmailer/swiftmailer": "^5.4",
+		"php": ">=7.0.0",
+		"swiftmailer/swiftmailer": "^5.4|^6.0",
 		"psr/log": "^1.0"
 	},
 
