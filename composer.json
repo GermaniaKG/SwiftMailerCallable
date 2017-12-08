@@ -23,13 +23,12 @@
   },
 
 	"require": {
-		"php": ">=7.0.0",
 		"swiftmailer/swiftmailer": "^5.4|^6.0",
 		"psr/log": "^1.0"
 	},
 
 	"require-dev": {
 			"satooshi/php-coveralls": "^1.0",
-			"phpunit/phpunit": "^5.2"
+			"phpunit/phpunit": "^5.7"
 	}
 }
