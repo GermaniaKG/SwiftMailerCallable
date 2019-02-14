@@ -2,27 +2,21 @@
 
 **Callable wrapper around sending emails with [SwiftMailer](http://swiftmailer.org/)**
 
-[![Build Status](https://travis-ci.org/GermaniaKG/SwiftMailerCallable.svg?branch=master)](https://travis-ci.org/GermaniaKG/SwiftMailerCallable)
+[![Packagist](https://img.shields.io/packagist/v/germania-kg/swiftmailer-callable.svg?style=flat)](https://packagist.org/packages/germania-kg/swiftmailer-callable)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/swiftmailer-callable.svg)](https://packagist.org/packages/germania-kg/swiftmailer-callable)
+[![Build Status](https://img.shields.io/travis/GermaniaKG/SwiftMailerCallable.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/SwiftMailerCallable)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/build-status/master)
 
 
+
+
 ## Installation
 
-**Working with SwiftMailer 6 on PHP7**
-
 ```bash
-$ composer require germania-kg/swiftmailer-callable:^1.0
+$ composer require germania-kg/swiftmailer-callable
 ```
-
-**Working with SwiftMailer 5 on PHP5.6+**
-
-```bash
-$ composer require germania-kg/swiftmailer-callable:^2.0
-```
-
-## A Word on SwiftMailer
 
 
 ## Usage
@@ -55,23 +49,26 @@ $sent = $mailer( $subject, $body, ['me@test.com' => 'Joen Doe'] );
 
 See [issues list.][i0]
 
-[i0]: https://github.com/GermaniaKG/SwiftMailerCallable/issues 
+[i0]: https://github.com/GermaniaKG/SwiftMailerCallable/issues
+
 
 
 ## Development
 
 ```bash
-$ git clone git@github.com:GermaniaKG/SwiftMailerCallable.git swiftmailer-callable
-$ cd swiftmailer-callable
+$ git clone https://github.com/GermaniaKG/SwiftMailerCallable.git
+$ cd SwiftMailerCallable
 $ composer install
 ```
 
 ## Unit tests
 
-Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
-Run [PhpUnit](https://phpunit.de/) like this:
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
 
 ```bash
+$ composer test
+# or
 $ vendor/bin/phpunit
 ```
+
 
