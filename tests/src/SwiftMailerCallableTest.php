@@ -8,7 +8,7 @@ use \Swift_Mailer;
 use \Swift_Message;
 use Prophecy\Argument;
 
-class SwiftMailerCallableTest extends \PHPUnit_Framework_TestCase
+class SwiftMailerCallableTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testInstantiation()
