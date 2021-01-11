@@ -7,9 +7,12 @@ use Psr\Log\NullLogger;
 use \Swift_Mailer;
 use \Swift_Message;
 use Prophecy\Argument;
+use Prophecy\PhpUnit\ProphecyTrait;
 
 class SwiftMailerCallableTest extends \PHPUnit\Framework\TestCase
 {
+
+    use ProphecyTrait;
 
     public function testInstantiation()
     {
@@ -25,6 +28,7 @@ class SwiftMailerCallableTest extends \PHPUnit\Framework\TestCase
         };
 
         $sut = new SwiftMailerCallable( $mailer_mock, $message_factory, new NullLogger );
+        $this->assertIsCallable($sut);
     }
 
 
