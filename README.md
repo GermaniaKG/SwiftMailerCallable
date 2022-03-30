@@ -4,10 +4,10 @@
 
 [![Packagist](https://img.shields.io/packagist/v/germania-kg/swiftmailer-callable.svg?style=flat)](https://packagist.org/packages/germania-kg/swiftmailer-callable)
 [![PHP version](https://img.shields.io/packagist/php-v/germania-kg/swiftmailer-callable.svg)](https://packagist.org/packages/germania-kg/swiftmailer-callable)
-[![Build Status](https://img.shields.io/travis/GermaniaKG/SwiftMailerCallable.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/SwiftMailerCallable)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/build-status/master)
+[![Build Status](https://img.shields.io/travis/com/GermaniaKG/SwiftMailerCallable.svg?label=Travis%20CI)](https://travis-ci.com/GermaniaKG/SwiftMailerCallable)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/quality-score.png)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/coverage.png)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/)
+[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable/badges/build.png)](https://scrutinizer-ci.com/g/GermaniaKG/SwiftMailerCallable)
 
 
 
